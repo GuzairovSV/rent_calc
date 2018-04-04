@@ -20,11 +20,11 @@ public class Test_1
 		
 		t0 = new rentCalc(34,19.3,21.54,3.25,2, 61,3.3,4.2,1,0.7);
 		
-		assertEquals(10, t0.total_houseGas);
-		assertEquals(20, t0.total_houseHeating);
-		assertEquals(30, t0.total_hotWater);
-		assertEquals(40, t0.total_coldWater);
-		assertEquals(50, t0.total_houseElectricity);
+		assertEquals(11, t0.total_houseGas);
+		assertEquals(11, t0.total_houseHeating);
+		assertEquals(11, t0.total_hotWater);
+		assertEquals(11, t0.total_coldWater);
+		assertEquals(11, t0.total_houseElectricity);
 
 	}
 }
